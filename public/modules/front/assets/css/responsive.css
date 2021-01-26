@@ -1,0 +1,156 @@
+@media screen and (max-width: 1000px) {
+    /*Akadem section*/
+    .Akadem-section {
+        background-image: url("../img/welcome/teacher-single-small.png");
+        background-position: bottom right;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .Akadem-section h2 {
+        font-size: 36px;
+        line-height: 53px;
+    }
+
+    .Akadem-section h3 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 40px;
+    }
+
+    .Akadem-section p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /*Pupils section*/
+    .pupils-section {
+        background-image: url("../img/welcome/trophy-mobile.png"), url("../img/welcome/student-mobile.png");
+        background-repeat: no-repeat;
+        background-position: right bottom, left bottom;
+        background-color: #06BFC2;
+        position: relative;
+        z-index: -1;
+        padding-top: 20px;
+        padding-bottom: 80px;
+        height: 460px;
+    }
+
+    .pupils-section h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .pupils-section p {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 25px;
+    }
+
+    .pupils-section .certificates {
+        padding-bottom: 50px;
+
+    }
+
+    .pupils-section .certificates .certificate-img {
+        margin-top: 20px;
+        min-width: 50px;
+        min-height: 50px;
+        max-width: 100px;
+        max-height: 80px;
+    }
+
+    .teachers-section {
+        background-image: url("../img/welcome/teachers.png");
+        background-size: 70% auto;
+        padding-top: 30px;
+        padding-bottom: 150px;
+    }
+
+    .teachers-section h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .teachers-section p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .tests-section {
+        background-image: none;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .tests-section .quizzes-card {
+        background-image: none;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .tests-section h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .quiz-detail {
+        font-size: 10px;
+        line-height: 24px;
+        margin-bottom: 0;
+
+    }
+
+    .quiz-detail-title {
+        font-size: 12px;
+    }
+
+    .quiz-img {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .quizzes .btn-primary {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+    .Akadem-section {
+        padding-top: 100px;
+        padding-bottom: 300px;
+    }
+
+    .pupils-section {
+        padding-top: 50px;
+    }
+
+    .pupils-section .certificates .certificate-img {
+        margin-left: 20px;
+    }
+
+    .teachers-section {
+        padding-top: 50px;
+        padding-bottom: 250px;
+    }
+
+    .tests-section {
+        background-image: none;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .tests-section .quizzes-card {
+        background-image: none;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .quiz-img {
+        width: 100%;
+        height: 20vw;
+    }
+
+}

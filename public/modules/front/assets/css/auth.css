@@ -1,0 +1,28 @@
+.left-img {
+    /*min-height: 100vh;*/
+}
+.auth-form .header-text .logo-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.auth-form .header-text h5{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.auth-form .btn{
+    color: #FFFFFF;
+    background-color: #00A0A3;
+}
+@media screen and (max-width: 2000px) and (min-width: 900px) {
+    .left-img {
+        min-height: 100vh;
+    }
+}
